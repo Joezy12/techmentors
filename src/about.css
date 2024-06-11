@@ -1,0 +1,132 @@
+.about-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://i.pinimg.com/564x/7a/f3/3d/7af33d293b393ff80701779c48105822.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-inner {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-inner h1 {
+    font-size: 55px;
+}
+
+.about-inner p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.what-we-do-2 {
+    margin-top:30px;
+    padding: 20px 170px;
+}
+
+.what-heading h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.what-heading span {
+    border: 5px solid  ;
+    padding: 0px 10px;
+}
+
+.what-content {
+    margin-top: 30px;
+}
+
+.what-content p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+
+.what-banner {
+    width: 100%;
+    height: 450px;
+   
+ 
+}
+
+.what-banner-container {
+    margin-top: 30px;
+    padding: 10px 10px;
+    border: 2px solid #467010;
+}
+
+.need-top {
+    margin-top: 30px;
+}
+
+.view-more {
+    margin-top: 40px;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(#61a310e5, #335708e5);
+    color: white;
+    border: none;
+}
+
+.more-content {
+    margin-top: 30px;
+}
+
+.who-we-are {
+    margin-top: 60px;
+    padding: 20px 170px;
+}
+
+.who-head h1 {
+    font-size: 40px;
+}
+
+.who-head h1 span {
+    color: white;
+    background: black;
+    padding: 5px 20px;
+}
+
+.who-content {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    gap: 3rem;
+}
+
+.who-left {
+    width: 50%;
+}
+
+.who-left-content p {
+    color: #467010;
+    font-weight: 600;
+}
+
+.who-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: last baseline;
+}
+
+.who-pic2 {
+    margin-top: -100px;
+   transform: translate(130px, 0px);
+   border: 8px solid #61941e;
+}
+
+.vision {
+    margin-top: 20px;
+}
