@@ -422,7 +422,8 @@
         display: flex;
         background: #737373;
         color: white;
-        padding: 15px 40px;
+        padding: 15px 0px;
+        flex-direction: column;
     }
 
     .side-nav {
@@ -607,7 +608,7 @@
 @media screen and (max-width: 500px){
     
     .phone-nav {
-        padding: 15px 20px;
+        padding: 15px 0px;
     }
 
     .top-banner {
