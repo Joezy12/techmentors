@@ -92,6 +92,7 @@
     font-size: 34px;
     color: #467010;
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 .believe p {
@@ -239,7 +240,7 @@
     background-position: center;
     background-attachment: fixed;
     color: white;
-    padding: 40px 0px;
+    padding: 80px 0px;
 }
 
 .values-head p {
@@ -309,4 +310,376 @@
 
 .link:hover {
     color: #75c012;
+}
+
+.phone-nav {
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 1100px){
+ .banner {
+    padding: 0px 0px;
+ }
+
+ .top-banner {
+    padding: 0px 40px;
+ }
+
+ .believe {
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .believe-left {
+    width: 100%;
+ }
+
+ .believe-right {
+    width: 100%;
+ }
+
+ .up-to-boxes {
+    flex-wrap: wrap;
+    padding: 0px 40px;
+ }
+
+ .u-box {
+    width: 100%;
+    height: 700px;
+    border-radius: 5px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.u-box-write h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.u-box-write p {
+    font-size: 22px;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+
+.u-box-write button {
+    margin-top: 40px;
+}
+
+.values-box {
+    width: 400px;
+}
+
+.values-container {
+    flex-wrap: wrap;
+    padding: 20px 40px;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+   
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.foot h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.foot p {
+    font-size: 19px;
+}
+ 
+}
+
+@media screen and (max-width: 900px){
+
+    .t-b-left h1 {
+        font-size: 24px;
+    }
+
+
+    .t-b-left p {
+        font-size: 16px;
+    }
+
+    .t-b-right p {
+        font-size: 16px;
+    }
+
+    .t-b-right br {
+        display: none;
+    }
+
+    .phone-nav {
+        display: flex;
+        background: #737373;
+        color: white;
+        padding: 15px 40px;
+    }
+
+    .side-nav {
+        font-size: 40px;
+    }
+
+    .we-do {
+        width: 90%;
+    }
+
+    .what-we-do {
+        height: 500px;
+    }
+
+
+    .we-do h1{
+        font-size: 50px;
+    }
+    
+    .we-do p {
+        font-size: 17px;
+        
+    }
+    
+
+    
+    .values-head {
+        padding: 100px 0px;
+    }
+
+    .values-head p {
+        width: 90%;
+        font-size: 18px;
+    }
+    
+    .values-head h1 {
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    .values-box {
+        width: 100%;
+    }
+    
+
+    .values-icon {
+        width: 100%;
+        height: 200px;
+       
+    }
+
+    .values-box p {
+        font-size: 18px;
+        padding: 0px 40px;
+    }
+    
+
+}
+
+@media screen and (max-width: 600px){
+
+  .top-banner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top-banner {
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    gap: 2rem;
+}
+.t-b-left {
+    width: 100%;
+}
+
+.t-b-right p {
+    font-size: 14px;
+}
+
+.t-b-left h1 {
+    font-size: 20px;
+}
+
+
+.t-b-left p {
+    font-size: 14px;
+}
+
+.banner {
+    height: 550px;
+}
+
+.play {
+    width: 90px;
+    height: 40px;
+    font-size: 14px;
+}
+
+.bottom-banner {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.b-banner {
+    text-align: center;
+    height: 120px;
+    width: 100%;
+}
+
+.b-banner h1 {
+    font-weight: 500;
+}
+
+.believe h1 {
+    font-size: 23px;
+    line-height: 40px;
+}
+
+.believe p {
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 36px;
+    opacity: 0.8;
+}
+
+.believe {
+    margin-top: 250px;
+}
+
+.believe-right {
+    height: 400px;
+}
+
+.we-do h1{
+    font-size: 35px;
+}
+
+.we-do p {
+    font-size: 14px;
+    
+}
+
+.up-to-head h1 {
+    font-size: 18px;
+}
+
+.up-to-head {
+    padding: 10px 40px;
+   
+}
+
+.u-box {
+    width: 100%;
+    height: 450px;
+}
+
+.u-box-write {
+    height: 65%;
+    padding: 20px 20px
+}
+
+.u-box-pic {
+    width: 100%;
+    height: 35%;
+    background-position: center;
+  
+}
+
+.u-box-write h1 {
+    font-size: 31px;
+}
+
+.u-box-write p {
+    font-size: 14px;
+}
+
+
+}
+
+@media screen and (max-width: 500px){
+    
+    .phone-nav {
+        padding: 15px 20px;
+    }
+
+    .top-banner {
+        padding: 0px 20px;
+     }
+
+     .believe {
+        padding: 0px 20px;
+     }
+    
+
+     .believe h1 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .believe-right {
+        height: 300px;
+    }
+    
+    .what-we-do {
+        height: 450px;
+    }
+
+    .we-do p {
+       line-height: 30px;
+        
+    }
+
+
+    .up-to-head {
+        padding: 10px 20px;
+       
+    }
+    
+    .u-box {
+        height: 470px;
+    }
+    
+ 
+    
+   
+    
+    .u-box-write h1 {
+        font-size: 21px;
+    }
+    
+    .u-box-write p {
+        font-size: 13px;
+    }
+
+    .up-to-boxes {
+     
+        padding: 0px 20px;
+     }
+
+     .values-box p {
+        font-size: 14px;
+        padding: 0px 0px;
+    }
+
+    .values-icon {
+        width: 80%;
+        height: 150px;
+       
+    }
+
+    .values-box h1 {
+        font-size: 23px;
+    }
+
+    .footer {
+        padding: 100px 40px;
+    }
 }
