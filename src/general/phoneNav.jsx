@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import logo from '../../public/logo.jpeg'
+import { NavLink } from 'react-router-dom';
 
 
 function PhoneNav() {
@@ -32,10 +33,14 @@ function PhoneNav() {
                 </div>
             </div>
             <div className='p-drop-down' style={drpStyle}>
-                <div className='drp-container'>
+            <NavLink to="." className="link" onClick={drp}>  <div className='drp-container'>
+                   <h3>HOME</h3>
+                   <p>+</p>
+                 </div>  </NavLink>
+                 <NavLink to="about" className="link" onClick={drp}>  <div className='drp-container'>
                    <h3>ABOUT</h3>
                    <p>+</p>
-                 </div> 
+                 </div>  </NavLink>
                  <div className='drp-container'>
                    <h3>OUR TEAM</h3>
                    <p>+</p>

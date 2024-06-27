@@ -11,7 +11,7 @@ function WhoWeAre() {
     }
 
     const whoPic2 = {
-        width: "400px",
+        width: window.innerWidth < 900 ? "100%": "400px",
         height: "200px",
         background: `url(${who2})`,
         backgroundSize: "cover",
