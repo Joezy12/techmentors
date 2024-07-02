@@ -41,10 +41,10 @@ function PhoneNav() {
                    <h3>ABOUT</h3>
                    <p>+</p>
                  </div>  </NavLink>
-                 <div className='drp-container'>
+                 <NavLink to="team" className="link" onClick={drp}>  <div className='drp-container'>
                    <h3>OUR TEAM</h3>
                    <p>+</p>
-                 </div> 
+                 </div> </NavLink>
                  <div className='drp-container'>
                    <h3>MEDIA</h3>
                    <p>+</p>

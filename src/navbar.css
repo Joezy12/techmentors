@@ -4,11 +4,12 @@
     padding: 0;
 }
 .navbar {
-    background: #737373;
+    background: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 70px;
+    color: black;
 }
 
 .logo img {
@@ -18,7 +19,7 @@
 .nav-links {
     display: flex;
     gap: 3rem;
-    color: white;
+    color: black;
     font-weight: 500;
     font-size: 15px;
     align-items: center;
@@ -45,7 +46,7 @@
 .p-drop-down {
   padding: 15px 0px;
   position: absolute;
-  background: #737373;
+  background: white;
   width: 100%;
   text-align: center;
   margin-top: 60px;

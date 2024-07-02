@@ -304,7 +304,7 @@
 }
 
 .link {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -420,8 +420,8 @@
 
     .phone-nav {
         display: flex;
-        background: #737373;
-        color: white;
+        background: white;
+        color: black;
         padding: 15px 0px;
         flex-direction: column;
     }
