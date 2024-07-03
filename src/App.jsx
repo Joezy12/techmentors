@@ -6,6 +6,7 @@ import './navbar.css'
 import './homepage.css'
 import './about.css'
 import './media.css'
+import './tsef.css'
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './general/navbar'
 import Homepage from './homepage/homepage'
@@ -14,6 +15,7 @@ import About from './aboutUs/about'
 import Media from './media/media'
 import Team from './ourTeam/team'
 import PhoneNav from './general/phoneNav'
+import Tsef from './tsefPrograms/tsef'
 
 function App() {
 
@@ -26,6 +28,7 @@ function App() {
        <Route path='about' element={<About />} />
        <Route path='media' element={<Media />} />
        <Route path='team' element={<Team />} />
+       <Route path='tsef' element={<Tsef />} />
      </Routes>
 
      <Footer />

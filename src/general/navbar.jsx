@@ -28,13 +28,13 @@ function Navbar() {
             <div className='nav-links'>
              <NavLink to="." className="link"> <p>HOME</p> </NavLink>  
              <NavLink to="about" className="link">  <p>ABOUT US</p> </NavLink>  
-             <NavLink to="team" className="link">  <p>OUR TEAM</p> </NavLink>
-                <NavLink to="media" className="link2">  <p onMouseOver={drop} onMouseOut={undrop}><span>MEDIA </span>
+            <NavLink to="team" className="link">  <p>OUR TEAM</p> </NavLink>
+                  <p onMouseOver={drop} onMouseOut={undrop}><span>MEDIA </span>
                     <div className='drop-down' style={dropStyle} >
-                        <h5 >News and Stories</h5>
+                    <NavLink to="media" className="link2">  <h5 >News and Stories</h5> </NavLink>
                         <h5 >Gallery</h5>
-                    </div></p> </NavLink> 
-                <p>TSEF PROGRAMS</p>
+                    </div></p>
+                    <NavLink to="tsef" className="link"><p>TSEF PROGRAMS</p> </NavLink>
                 <p>DONATE</p>
                 <p>CONTACT US</p>
                 <p className='link-btn'>TSEF NETWORK</p>

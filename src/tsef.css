@@ -1,0 +1,17 @@
+.tsef-banner {
+    width: 100%;
+    height: 280px;
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://thedailymail.co.ke/wp-content/uploads/2022/06/Optimism-among-the-youth-in-Africa-decline-due-to-unemployment-COVID-19-climate-change-instability-New-Research.jpeg");
+    background-size: cover;
+    background-position: 0px -80px;
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.tsef-banner h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+

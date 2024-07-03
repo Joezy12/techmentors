@@ -20,16 +20,16 @@ function Banner() {
 
             <div className="bottom-banner">
               <div className="b-banner">
-                <h1>10,000+</h1>
+                <h1>1,000+</h1>
                 <p>african youth funded</p>
               </div>
               <div className="b-banner">
-                <h1>2,500,000</h1>
+                <h1>2,500</h1>
                 <p>Young Africans empowered with <br  />
 access to training</p>
               </div>
               <div className="b-banner">
-                <h1>102</h1>
+                <h1>11</h1>
                 <p>african countries <br />touched</p>
               </div>
             </div>

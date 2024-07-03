@@ -5,27 +5,27 @@ function Footer() {
     return (
         <div className="footer">
             <div className="foot">
-               <h1 className="logo-here">TechSters</h1>
-               <p>255, Nowhere street, Aguda, surulere, Lagos
-                <br />Nigeria b.o.x 23342
+               <h1 className="logo-here">Techmentors</h1>
+               <p>
+                <br />
                </p>
-               <p>Admin@gmail.com</p>
+               <p>techmentors@gmail.com</p>
             </div>
             <div className="foot">
-               <h1>TechSters</h1>
+               <h1>Techmentors</h1>
                <p>Home</p>
-               <p>about</p>
+               <p>About Us</p>
                <p>Governance</p>
                <p>Media</p>
-               <p>tsef program</p>
-               <p>donate</p>
+               <p>Tsef Program</p>
+               <p>Donate</p>
                <p>Contact us</p>
             </div>
             <div className="foot">
                <h1>Services</h1>
                <p>Education</p>
-               <p>empowerment</p>
-               <p>career</p>
+               <p>Empowerment</p>
+               <p>Career</p>
                <p>Publishing</p>
             </div>
             <div className="foot">
