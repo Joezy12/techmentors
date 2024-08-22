@@ -167,16 +167,30 @@
        transform: translate(0px, 0px);
        border: 8px solid #61941e;
     }
-}
 
-@media screen and (max-width: 600px){
     .about-inner h1 {
-        font-size: 40px;
+        font-size: 50px;
+        font-weight: 1000;
     }
 
     .about-inner p {
         font-size: 14px;
-        margin-top: 10px;
+        margin-top: 50px;
+        line-height: 27px;
+    }
+
+    
+}
+
+@media screen and (max-width: 600px){
+    .about-inner h1 {
+        font-size: 50px;
+        font-weight: 1000;
+    }
+
+    .about-inner p {
+        font-size: 14px;
+        margin-top: 50px;
         line-height: 27px;
     }
 }
