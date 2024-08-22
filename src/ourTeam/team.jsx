@@ -48,7 +48,7 @@ function Team() {
                 <div className="t-top-left">
                     <p>MEET</p>
                     <h1>
-                    OUR TEAM
+                    OUR TEAM OF TRUSTEES
                     </h1>
                 </div>
                 <div className="t-top-right">

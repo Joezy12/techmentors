@@ -91,11 +91,12 @@
 
 .who-head h1 {
     font-size: 40px;
+    color: #467010;
 }
 
 .who-head h1 span {
     color: white;
-    background: black;
+    background: #467010;
     padding: 5px 20px;
 }
 
@@ -111,7 +112,7 @@
 }
 
 .who-left-content p {
-    color: #467010;
+    color: black;
     font-weight: 600;
 }
 
@@ -207,6 +208,6 @@
 
     .who-we-are {
         margin-top: 60px;
-        padding: 20px 200px;
+        padding: 20px 20px;
     }
 }
