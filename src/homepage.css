@@ -209,11 +209,31 @@
     border-radius: 5px 5px 0px 0px;
 }
 
+
 .u-box-pic3 {
-    background: url("https://www.unwomen.org/sites/default/files/Headquarters/Images/Sections/News/Stories/2018/10/AfricanGirlsCanCode_Addis_August2018_Khayrath-Mohamed-Kombo_1_960x640.JPG");
+    background: url("https://media.licdn.com/dms/image/D4D12AQGyC4rwcIcS1w/article-cover_image-shrink_720_1280/0/1720689709590?e=2147483647&v=beta&t=0sDP0N5Cl81wtmLv9NfxjvmBxSCAq0ileP9rv86hp7A");
     background-size: cover;
     border-radius: 5px 5px 0px 0px;
 }
+
+.u-box-pic4 {
+    background: url("https://www.shutterstock.com/image-photo/smiling-girl-sitting-on-wheelchair-260nw-2133881101.jpg");
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.u-box-pic5 {
+    background: url("https://thisisafrica.me/wp-content/uploads/2019/05/13062915_1204188042927726_8345433170454495319_o.jpg");
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.u-box-pic6 {
+    background: url("https://techbuild.africa/wp-content/uploads/2021/08/black-girls-.jpg");
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+
 
 .u-box-write button {
     background: #467010;
@@ -422,7 +442,7 @@
         display: flex;
         background: white;
         color: black;
-        padding: 15px 0px;
+        padding: 0px 0px;
         flex-direction: column;
     }
 
@@ -608,7 +628,7 @@
 @media screen and (max-width: 500px){
     
     .phone-nav {
-        padding: 15px 0px;
+        padding: 0px 0px;
     }
 
     .top-banner {

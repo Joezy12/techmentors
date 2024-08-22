@@ -21,12 +21,18 @@ function PhoneNav() {
         })
     }
 
+    const logoStyle = {
+      background: `url(${logo})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+    }
+
    
     return (
         <div className="phone-nav">
             <div className="top-phone-nav">
-                <div className="phone-logo">
-                    <img src={logo} alt="" />
+                <div className="phone-logo" style={logoStyle}>
+                    
                 </div>
                 <div className="side-nav" onClick={drp}>
                     <i className="bi-list"></i>
@@ -53,16 +59,17 @@ function PhoneNav() {
                    <h3>TSEF PROGRAMS</h3>
                    <p>+</p>
                  </div> 
-                 <div className='drp-container'>
-                   <h3>DONATE</h3>
-                   <p>+</p>
-                 </div> 
+               
                  <div className='drp-container'>
                    <h3>CONTACT US</h3>
                    <p>+</p>
                  </div> 
                  <div className='drp-container'>
                    <h3>TSEF NETWORK</h3>
+                   <p>+</p>
+                 </div> 
+                 <div className='drp-container'>
+                   <h3>DONATE</h3>
                    <p>+</p>
                  </div> 
             </div>

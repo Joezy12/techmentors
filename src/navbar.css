@@ -40,7 +40,8 @@
 
 .phone-logo img {
   width: 100px;
-  height: 50px;
+  height: 100px;
+  border: 1px solid red;
 }
 
 .p-drop-down {
@@ -73,6 +74,11 @@
 .drp-container h3 {
   font-size: 15px;
   width: 95%;
+}
+
+.phone-logo {
+  width: 150px;
+  height: 90px;
 }
 
 

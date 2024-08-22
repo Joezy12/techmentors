@@ -29,8 +29,37 @@ function WhatWeUpTo() {
                 <div className="u-box">
                     <div className="u-box-pic u-box-pic3"></div>
                     <div className="u-box-write">
-                        <h1>CODING </h1>
-                        <p>Girls will learn the fundamentals of programming, starting with basic concepts and progressing to more advanced techniques. These workshops will cover various programming languages and provide practical exercises to reinforce their learning.</p>
+                        <h1>BLOCK CHAIN INNOVATION FOR YOUNG AFRICANS </h1>
+                        <p>Blockchain Innovation for Young African is designed to introduce African teenagers to the transformative technology of blockchain and its myriad applications across various industries.</p>
+                        <button>learn more</button>
+                    </div>
+                </div>
+            </div>
+
+            <div className="up-to-boxes">
+                <div className="u-box">
+                    <div className="u-box-pic u-box-pic4"></div>
+                    <div className="u-box-write">
+                        <h1>BASIC DIGITAL LITERACY FOR VULNERABLE AFRICAN TEENAGERS </h1>
+                        <p>The Basic Digital Literacy for Vulnerable African Teenagers program is designed to equip underserved and vulnerable teenagers across Africa with essential digital literacy skills. </p>
+                        <button>learn more</button>
+                    </div>
+                </div>
+
+                <div className="u-box">
+                    <div className="u-box-pic u-box-pic5"></div>
+                    <div className="u-box-write">
+                        <h1>FUTURE CODERS AFRICA </h1>
+                        <p>Future Coders Africa is an ambitious and transformative program by Techmentors Skills Empowerment Foundation, dedicated to nurturing the next generation of coding prodigies across the African continent.  </p>
+                        <button>learn more</button>
+                    </div>
+                </div>
+
+                <div className="u-box">
+                    <div className="u-box-pic u-box-pic6"></div>
+                    <div className="u-box-write">
+                        <h1>AFRICA MARATHON DIGITAL CHALLENGE </h1>
+                        <p>The African Marathon Digital Challenge is an exciting and dynamic virtual competition designed to inspire and empower teenagers across Africa to showcase their coding skills and creativity.</p>
                         <button>learn more</button>
                     </div>
                 </div>

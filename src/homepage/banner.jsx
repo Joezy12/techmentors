@@ -33,6 +33,7 @@ access to training</p>
                 <p>african countries <br />touched</p>
               </div>
             </div>
+            
         </div>
     )
 }
