@@ -4,10 +4,10 @@ import WhatWeDo from "./whatwedo";
 import WhatWeUpTo from "./whatweupto";
 import OurValues from "./ourValues";
 
-function Homepage() {
+function Homepage(prop) {
     return (
         <div className="homepage">
-          <Banner />
+          <Banner openVideo={prop.openVideo}/>
           <Believe />
           <WhatWeDo />
           <WhatWeUpTo />

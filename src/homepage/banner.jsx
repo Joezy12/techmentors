@@ -1,7 +1,7 @@
 
 
 
-function Banner() {
+function Banner(props) {
 
     return (
         <div className="banner">
@@ -12,7 +12,7 @@ function Banner() {
                 </div>
                 <div className="t-b-right">
                   <p>watch what we can do</p>
-                  <div className="play">
+                  <div className="play" onClick={props.openVideo}>
                     <i className="bi-caret-right-fill"></i>
                   </div>
                 </div>

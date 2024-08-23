@@ -35,3 +35,32 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+.video-box {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background: rgba(0,0,0,1);
+
+}
+
+.video-box h1 {
+  color: red;
+}
+
+.videor {
+  margin-top: 50px;
+}
+
+
+.cancelBtn {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.cancelBtn h1 {
+  font-size: 50px;
+}
