@@ -51,21 +51,23 @@ function PhoneNav() {
                    <h3>OUR TEAM</h3>
                    <p>+</p>
                  </div> </NavLink>
-                 <div className='drp-container'>
+                 <NavLink to="media" className="link" onClick={drp}>  <div className='drp-container'>
                    <h3>MEDIA</h3>
                    <p>+</p>
-                 </div> 
+                 </div> </NavLink>
+                 <NavLink to="tsef" className="link" onClick={drp}>
                  <div className='drp-container'>
                    <h3>TSEF PROGRAMS</h3>
                    <p>+</p>
-                 </div> 
+                 </div> </NavLink>
                
                  <div className='drp-container'>
                    <h3>CONTACT US</h3>
                    <p>+</p>
                  </div> 
+              
                  <div className='drp-container'>
-                   <h3>TSEF NETWORK</h3>
+                   <h3>FOUNDERS LETTER</h3>
                    <p>+</p>
                  </div> 
                  <div className='drp-container'>

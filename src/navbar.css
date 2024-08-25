@@ -52,6 +52,9 @@
   text-align: center;
   margin-top: 60px;
   transition: 0.5s linear;
+  z-index: 15;
+  border-bottom: 1px solid rgba(255,255,255,0.4);
+  
 }
 
 .drp-container {
@@ -69,17 +72,20 @@
   font-size: 20px;
   width: 5%;
   padding-right: 30px;
+  color: #4cd821;
 }
 
 .drp-container h3 {
   font-size: 15px;
   width: 95%;
+  color: #4cd821;
 }
 
 .phone-logo {
   width: 150px;
   height: 90px;
 }
+
 
 
 @media screen and (max-width: 1100px){

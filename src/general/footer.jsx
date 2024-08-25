@@ -9,7 +9,8 @@ function Footer() {
                <p>
                 <br />
                </p>
-               <p>techmentors@gmail.com</p>
+               <p>info@techmentorsskill<br />empowermentfoundation.org</p>
+               <p></p>
             </div>
             <div className="foot">
                <h1>Techmentors</h1>

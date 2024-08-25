@@ -87,6 +87,7 @@
 .who-we-are {
     margin-top: 60px;
     padding: 20px 170px;
+    color: rgba(0,0,0,0.5);
 }
 
 .who-head h1 {
@@ -112,7 +113,7 @@
 }
 
 .who-left-content p {
-    color: black;
+    color: rgba(0,0,0,0.5);
     font-weight: 600;
 }
 

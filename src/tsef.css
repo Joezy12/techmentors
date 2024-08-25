@@ -15,3 +15,59 @@
     font-weight: 400;
 }
 
+.tsef-write {
+    padding: 30px 150px;
+    opacity: 0.6;
+}
+
+.tsef-write p {
+    font-weight: 600;
+    line-height: 27px;
+    
+}
+
+.tsef-subs {
+    padding: 30px 150px;
+}
+
+.tsef-sub-content h1{
+   font-size: 30px;
+   color: #467010;
+}
+
+.tsef-sub-content p {
+    opacity: 0.6;
+}
+
+.second-tsef {
+    margin-top: 150px;
+}
+
+.colored {
+    color: #467010;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1100px) {
+    .tsef-banner {
+        padding: 0px 30px;
+    }
+
+    
+.tsef-write {
+    padding: 30px 20px;
+    opacity: 0.6;
+}
+
+.tsef-subs {
+    padding: 30px 20px;
+}
+}

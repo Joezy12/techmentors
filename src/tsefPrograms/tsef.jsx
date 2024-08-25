@@ -1,10 +1,10 @@
-import TsefBanner from "./tsefBanner";
 
+import TsefMain from "./tsefmain";
 
 function Tsef() {
     return (
         <div className="tsef">
-          <TsefBanner />
+           <TsefMain />
         </div>
     )
 }

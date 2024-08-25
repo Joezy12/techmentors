@@ -64,3 +64,38 @@ button:focus-visible {
 .cancelBtn h1 {
   font-size: 50px;
 }
+
+.trustee-container {
+  width: 100%;
+  height: 500vh;
+  background: rgba(0,0,0,1);
+  position: absolute;
+
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.trustee-box {
+  background: white;
+  width: 80%;
+  border-radius: 6px;
+}
+
+.trustee-text {
+  font-size: 14px;
+  padding: 20px 20px;
+}
+
+.trustee-text h1 {
+  margin-bottom: 20px;
+  color: #4cd821;
+}
+
+.x {
+  color: red;
+  font-size: 20px;
+  margin-bottom: 40px;
+}

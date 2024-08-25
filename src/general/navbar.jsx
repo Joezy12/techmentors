@@ -35,7 +35,7 @@ function Navbar() {
                         <h5 >Gallery</h5>
                     </div></p>
                     <NavLink to="tsef" className="link"><p>TSEF PROGRAMS</p> </NavLink>
-                
+                    <NavLink to="tsef" className="link"><p>FOUNDERS LETTER</p> </NavLink>
                 <p>CONTACT US</p>
                 <p className='link-btn'>DONATE</p>
             </div>
