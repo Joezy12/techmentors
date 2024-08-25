@@ -2,12 +2,36 @@
     width: 100%;
     height: 280px;
     color: white;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://thedailymail.co.ke/wp-content/uploads/2022/06/Optimism-among-the-youth-in-Africa-decline-due-to-unemployment-COVID-19-climate-change-instability-New-Research.jpeg");
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://images.squarespace-cdn.com/content/v1/5c27c93f1aef1d60b29781f9/1603812838639-EOWJXUAZBG06RM85EKGQ/africa+1.jpg");
     background-size: cover;
-    background-position: 0px -80px;
+    background-position: center;
     display: flex;
     align-items: center;
     padding: 0px 100px;
+}
+
+.tsef-banner2 {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://technext24.com/wp-content/uploads/2023/05/image-249.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.tsef-banner3 {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://www.shutterstock.com/image-photo/smiling-girl-sitting-on-wheelchair-260nw-2133881101.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.tsef-banner4 {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://media.licdn.com/dms/image/D4D12AQGyC4rwcIcS1w/article-cover_image-shrink_720_1280/0/1720689709590?e=2147483647&v=beta&t=0sDP0N5Cl81wtmLv9NfxjvmBxSCAq0ileP9rv86hp7A");
+    background-size: cover;
+    background-position: center;
+}
+
+.tsef-banner5 {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://thisisafrica.me/wp-content/uploads/2019/05/13062915_1204188042927726_8345433170454495319_o.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .tsef-banner h1 {

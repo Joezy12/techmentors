@@ -40,7 +40,7 @@ function TsefMain() {
 
 
             <div className="second-tsef">
-                <div className="tsef-banner">
+                <div className="tsef-banner tsef-banner2">
                     <h1>GIRLS TECHSTERS</h1>
                 </div>
                 <div className="tsef-write">
@@ -84,7 +84,7 @@ function TsefMain() {
 
 
             <div className="second-tsef">
-                <div className="tsef-banner">
+                <div className="tsef-banner tsef-banner3">
                     <h1>BASIC DIGITAL LITERACY FOR VUNERABLE AFRICAN TEENS</h1>
                 </div>
                 <div className="tsef-write">
@@ -152,7 +152,7 @@ function TsefMain() {
 
 
             <div className="second-tsef">
-                <div className="tsef-banner">
+                <div className="tsef-banner tsef-banner4">
                     <h1>BLOCKCHAIN INNOVATION FOR YOUNG AFRICANS</h1>
                 </div>
                 <div className="tsef-write">
@@ -220,7 +220,7 @@ function TsefMain() {
 
 
             <div className="second-tsef">
-                <div className="tsef-banner">
+                <div className="tsef-banner tsef-banner5">
                     <h1>FUTURE CODERS AFRICA</h1>
                 </div>
                 <div className="tsef-write">
