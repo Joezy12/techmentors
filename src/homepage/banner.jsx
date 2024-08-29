@@ -8,7 +8,7 @@ function Banner(props) {
             <div className="top-banner">
                 <div className="t-b-left">
                     <h1>EMPOWERING THE NEXT AFRICAN TECH LEADERS ACROSS THE CONTINENT</h1>
-                    <p>We envision a future where African teenagers are not just digitally literate but are leaders in global technological advancement.</p>
+                    <p></p>
                 </div>
                 <div className="t-b-right">
                   <p>watch what we can do</p>
@@ -29,7 +29,7 @@ function Banner(props) {
 access to training</p>
               </div>
               <div className="b-banner">
-                <h1>11</h1>
+                <h1>4</h1>
                 <p>african countries <br />touched</p>
               </div>
             </div>

@@ -4,6 +4,8 @@ import { NavLink } from 'react-router-dom';
 
 
 function PhoneNav() {
+
+  const [subdrop, setSubDrop] = useState(false)
     const [drpState, setDrpState] = useState(false);
 
     const drpStyle = drpState ? {
@@ -27,6 +29,12 @@ function PhoneNav() {
       backgroundPosition: "center",
     }
 
+    function undrop() {
+      setSubDrop((prev)=> {
+        return !prev;
+      })
+    }
+
    
     return (
         <div className="phone-nav">
@@ -41,38 +49,60 @@ function PhoneNav() {
             <div className='p-drop-down' style={drpStyle}>
             <NavLink to="." className="link" onClick={drp}>  <div className='drp-container'>
                    <h3>HOME</h3>
-                   <p>+</p>
+                   
                  </div>  </NavLink>
                  <NavLink to="about" className="link" onClick={drp}>  <div className='drp-container'>
                    <h3>ABOUT</h3>
-                   <p>+</p>
+                   
                  </div>  </NavLink>
                  <NavLink to="team" className="link" onClick={drp}>  <div className='drp-container'>
                    <h3>OUR TEAM</h3>
-                   <p>+</p>
+                  
                  </div> </NavLink>
                  <NavLink to="media" className="link" onClick={drp}>  <div className='drp-container'>
                    <h3>MEDIA</h3>
-                   <p>+</p>
+                 
                  </div> </NavLink>
-                 <NavLink to="tsef" className="link" onClick={drp}>
-                 <div className='drp-container'>
+                 
+                 <div className='drp-container' onClick={undrop}>
                    <h3>TSEF PROGRAMS</h3>
                    <p>+</p>
-                 </div> </NavLink>
+                 </div> 
+                 {subdrop ? <NavLink to="tsef" className="link" onClick={drp + undrop}><div className='drp-container green'>
+                   <h3>Tech4Teens Bootcamp</h3>
+                  
+                 </div></NavLink> : ""}
+                 {subdrop ? <NavLink to="tsef2" className="link" onClick={drp + undrop}><div className='drp-container green'>
+                   <h3>Girls Techsters</h3>
+                   
+                 </div></NavLink> : ""}
+                 {subdrop ? <NavLink to="tsef3" className="link" onClick={drp + undrop}><div className='drp-container green'>
+                   <h3>Basic Digital Literacy For  <br />Vunerable Teens</h3>
+                   
+                 </div></NavLink> : ""}
+                 {subdrop ? <NavLink to="tsef4" className="link" onClick={drp + undrop}><div className='drp-container green'>
+                   <h3>Block Chain Innovation <br /> For Young Africans</h3>
+                   
+                 </div></NavLink> : ""}
+                 {subdrop ? <NavLink to="tsef5" className="link" onClick={drp + undrop}><div className='drp-container green'>
+                   <h3>Future Coders Africa</h3>
+                   
+                 </div></NavLink> : ""}
+
+               
                
                  <div className='drp-container'>
                    <h3>CONTACT US</h3>
-                   <p>+</p>
+                   
                  </div> 
               
-                 <div className='drp-container'>
+                 <NavLink to="foundersLetter" className="link" onClick={drp}><div className='drp-container'>
                    <h3>FOUNDERS LETTER</h3>
                    <p>+</p>
-                 </div> 
+                 </div> </NavLink>
                  <div className='drp-container'>
                    <h3>DONATE</h3>
-                   <p>+</p>
+                   
                  </div> 
             </div>
         </div>

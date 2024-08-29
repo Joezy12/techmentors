@@ -6,6 +6,7 @@ import trustee4 from '../../public/trustee4.jpeg'
 import trustee5 from '../../public/trustee5.jpeg'
 import trustee7 from '../../public/trustee7.jpeg'
 import trustee8 from '../../public/trustee8.jpeg'
+import trustee9 from '../../public/trustee9.jpeg'
 
 
 
@@ -48,7 +49,7 @@ function Team() {
     }
 
     const teamPic8 = {
-        background: `url(${trustee8})`,
+        background: `url(${trustee9})`,
         backgroundSize: "cover",
         backgroundPoition: 'center',
     }

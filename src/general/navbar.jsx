@@ -5,13 +5,24 @@ import { NavLink } from 'react-router-dom';
 function Navbar() {
 
     const [dropDown, setDropDown] = useState(false);
+    const [dropDown2, setDropDown2] = useState(false);
 
     const dropStyle = {
         display: dropDown ? "flex" : "none",
     }
 
+    const dropStyle2 = {
+        display: dropDown2 ? "flex" : "none",
+    }
+
     function drop() {
-        setDropDown((prev)=> {
+        setDropDown((prev) => {
+            return true;
+        })
+    }
+
+    function drop2() {
+        setDropDown2((prev) => {
             return true;
         })
     }
@@ -20,22 +31,39 @@ function Navbar() {
         setDropDown(false)
     }
 
+    function undrop2() {
+        setDropDown2(false)
+    }
+
+    const logoStyle = {
+        background: `url(${logo})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+    }
+
     return (
         <div className="navbar">
-            <div className="logo">
-                <img src={logo} alt="" />
+            <div className="phone-logo" style={logoStyle}>
+
             </div>
             <div className='nav-links'>
-             <NavLink to="." className="link"> <p>HOME</p> </NavLink>  
-             <NavLink to="about" className="link">  <p>ABOUT US</p> </NavLink>  
-            <NavLink to="team" className="link">  <p>OUR TEAM</p> </NavLink>
-                  <p onMouseOver={drop} onMouseOut={undrop}><span>MEDIA </span>
+                <NavLink to="." className="link"> <p>HOME</p> </NavLink>
+                <NavLink to="about" className="link">  <p>ABOUT US</p> </NavLink>
+                <NavLink to="team" className="link">  <p>OUR TEAM</p> </NavLink>
+                <p onMouseOver={drop} onMouseOut={undrop}><span>MEDIA </span>
                     <div className='drop-down' style={dropStyle} >
-                    <NavLink to="media" className="link2">  <h5 >News and Stories</h5> </NavLink>
+                        <NavLink to="media" className="link2">  <h5 >News and Stories</h5> </NavLink>
                         <h5 >Gallery</h5>
                     </div></p>
-                    <NavLink to="tsef" className="link"><p>TSEF PROGRAMS</p> </NavLink>
-                    <NavLink to="tsef" className="link"><p>FOUNDERS LETTER</p> </NavLink>
+                    <p onMouseOver={drop2} onMouseOut={undrop2}><span>TSEF PROGRAMS </span>
+                    <div className='drop-down' style={dropStyle2} >
+                        <NavLink to="tsef" className="link2">  <h5 >Tech4Teens Bootcamp</h5> </NavLink>
+                        <NavLink to="tsef2" className="link2"> <h5 >Girls Techsters</h5></NavLink>
+                        <NavLink to="tsef3" className="link2"> <h5 >Basic Digital Literacy For <br />Vunerable Teens</h5> </NavLink>
+                        <NavLink to="tsef4" className="link2"><h5>Block Chain Innovation <br /> For Young Africans</h5></NavLink>
+                        <NavLink to="tsef5" className="link2"><h5>Future Coders Africa</h5></NavLink>
+                    </div></p>
+                <NavLink to="foundersLetter" className="link"><p>FOUNDERS LETTER</p> </NavLink>
                 <p>CONTACT US</p>
                 <p className='link-btn'>DONATE</p>
             </div>
