@@ -68,23 +68,23 @@ function PhoneNav() {
                    <h3>TSEF PROGRAMS</h3>
                    <p>+</p>
                  </div> 
-                 {subdrop ? <NavLink to="tsef" className="link" onClick={drp + undrop}><div className='drp-container green'>
+                 {subdrop ? <NavLink to="tsef" className="link" onClick={drp}><div className='drp-container green'>
                    <h3>Tech4Teens Bootcamp</h3>
                   
                  </div></NavLink> : ""}
-                 {subdrop ? <NavLink to="tsef2" className="link" onClick={drp + undrop}><div className='drp-container green'>
+                 {subdrop ? <NavLink to="tsef2" className="link" onClick={drp}><div className='drp-container green'>
                    <h3>Girls Techsters</h3>
                    
                  </div></NavLink> : ""}
-                 {subdrop ? <NavLink to="tsef3" className="link" onClick={drp + undrop}><div className='drp-container green'>
+                 {subdrop ? <NavLink to="tsef3" className="link" onClick={drp}><div className='drp-container green'>
                    <h3>Basic Digital Literacy For  <br />Vunerable Teens</h3>
                    
                  </div></NavLink> : ""}
-                 {subdrop ? <NavLink to="tsef4" className="link" onClick={drp + undrop}><div className='drp-container green'>
+                 {subdrop ? <NavLink to="tsef4" className="link" onClick={drp}><div className='drp-container green'>
                    <h3>Block Chain Innovation <br /> For Young Africans</h3>
                    
                  </div></NavLink> : ""}
-                 {subdrop ? <NavLink to="tsef5" className="link" onClick={drp + undrop}><div className='drp-container green'>
+                 {subdrop ? <NavLink to="tsef5" className="link" onClick={drp}><div className='drp-container green'>
                    <h3>Future Coders Africa</h3>
                    
                  </div></NavLink> : ""}
