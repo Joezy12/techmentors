@@ -8,6 +8,7 @@ import './about.css'
 import './media.css'
 import './tsef.css'
 import './founders.css'
+import './trustee.css'
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './general/navbar'
 import Homepage from './homepage/homepage'
@@ -23,6 +24,9 @@ import Tsef2 from './tsefPrograms/tsef2'
 import Tsef3 from './tsefPrograms/tsef3'
 import Tsef4 from './tsefPrograms/tsef4'
 import Tsef5 from './tsefPrograms/tsef5'
+import TrusteeProfile1 from './ourTeam/trusteeProfile1'
+import TrusteeProfile2 from './ourTeam/trusteeProfile2'
+import TrusteeProfile3 from './ourTeam/trusteeprofile3'
 
 function App() {
 
@@ -56,6 +60,9 @@ function App() {
         <Route path='tsef3' element={<Tsef3 />} />
         <Route path='tsef4' element={<Tsef4 />} />
         <Route path='tsef5' element={<Tsef5 />} />
+        <Route path='tProfile1' element={<TrusteeProfile1 />} />
+        <Route path='tProfile2' element={<TrusteeProfile2 />} />
+        <Route path='tProfile3' element={<TrusteeProfile3 />} />
         <Route path='foundersLetter' element={<FoundersLetter />} />
       </Routes>
 

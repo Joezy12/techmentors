@@ -7,6 +7,7 @@ import trustee5 from '../../public/trustee5.jpeg'
 import trustee7 from '../../public/trustee7.jpeg'
 import trustee8 from '../../public/trustee8.jpeg'
 import trustee9 from '../../public/trustee9.jpeg'
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -126,21 +127,21 @@ function Team() {
                 <div className="t-top-left">
                     <p>MEET</p>
                     <h1>
-                        OUR TEAM OF TRUSTEES
+                        OUR TEAM
                     </h1>
                 </div>
                 <div className="t-top-right">
-                    <p>Our team of experienced professionals is dedicated to providing you with the highest level of service. From property management to maintenance, we are here to assist you every step of the way. Our goal is to make your rental experience as smooth and stress-free as possible.</p>
+                    
                 </div>
             </div>
 
             <div className="team-bottom">
                 <div name="odunola" className="team-box"  >
-                    <div className="team-pic" style={teamPic1}></div>
-                    <div className="team-info">
+                <NavLink to="../tProfile2"> <div className="team-pic" style={teamPic1}></div> </NavLink>
+                <NavLink to="../tProfile2"> <div className="team-info">
                         <h2>Isreal Akpan</h2>
-                        <p>Human Resources and General Administration</p>
-                    </div>
+                        <p>HR and General Administration</p>
+                    </div> </NavLink>
                     
                     <div className="team-socials">
                         <div className="social-1">
@@ -156,11 +157,11 @@ function Team() {
                 </div>
 
                 <div className="team-box">
-                    <div className="team-pic t-pic2" style={teamPic2}></div>
-                    <div className="team-info">
+                <NavLink to="../tProfile3"> <div className="team-pic t-pic2" style={teamPic2}></div></NavLink>
+                <NavLink to="../tProfile3"><div className="team-info">
                         <h2>Nwaeke Chioma</h2>
-                        <p>Legal</p>
-                    </div>
+                        <p>Legal</p> 
+                    </div></NavLink>
                    
                     <div className="team-socials">
                         <div className="social-1">
@@ -177,7 +178,7 @@ function Team() {
 
                 <div className="team-box">
                     <div className="team-pic t-pic3" style={teamPic3}></div>
-                    <div className="team-info">
+                    <div className="team-info team-info2">
                         <h2>Kasiemobi Anastasia</h2>
                         <p>Secretary</p>
                     </div>
@@ -199,7 +200,7 @@ function Team() {
 
             <div className="team-bottom">
                 <div className="team-box">
-                    <div className="team-pic" style={teamPic4}></div>
+                   <NavLink to="../tProfile1"><div className="team-pic" style={teamPic4}></div></NavLink>
                     <div className="team-info">
                         <h2>Odunola Abayomi</h2>
                         <p>Programs</p>
@@ -262,25 +263,7 @@ function Team() {
             </div>
 
             <div className="team-bottom">
-                <div className="team-box">
-                    <div className="team-pic" style={teamPic8}></div>
-                    <div className="team-info">
-                        <h2>Isaiah Nsikak</h2>
-                        <p>Chairman</p>
-                    </div>
                 
-                    <div className="team-socials">
-                        <div className="social-1">
-                            <i className="bi-twitter"></i>
-                        </div>
-                        <div className="social-2">
-                            <i className="bi-instagram"></i>
-                        </div>
-                        <div className="social-3">
-                            <i className="bi-envelope"></i>
-                        </div>
-                    </div>
-                </div>
 
                 <div className="team-box">
 

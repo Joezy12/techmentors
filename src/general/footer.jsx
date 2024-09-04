@@ -9,7 +9,9 @@ function Footer() {
                <p>
                 <br />
                </p>
-               <p>info@techmentorsskill<br />empowermentfoundation.org</p>
+               <p>info@techmentorsskills<br />empowermentfoundation.org</p>
+               <p>Tel: +234 905 911 7629</p>
+               <p>+234 903 522 6847</p>
                <p></p>
             </div>
             <div className="foot">
@@ -22,23 +24,24 @@ function Footer() {
                <p>Donate</p>
                <p>Contact us</p>
             </div>
-            <div className="foot">
-               <h1>Services</h1>
-               <p>Education</p>
-               <p>Empowerment</p>
-               <p>Career</p>
-               <p>Publishing</p>
-            </div>
+            
             <div className="foot">
                <h1>Events</h1>
-               <p>Tech4teens bootcamp</p>
+               <p>Tech4teens Bootcamp</p>
                <p>Girls Techsters</p>
-               <p>Coding</p>
+               <p>Basic Digital Literacy For Vunerable African Teens</p>
+               <p>Blockchain Innovation For Young Africans</p>
+               <p>Future Coders Africa</p>
+               <p>African Marathon digital Challenge</p>
+
             </div>
 
             <div className="foot socials-icon">
                 <h1>Follow</h1>
-                <i></i>
+               <div className="social-split">
+               <a href="https://www.facebook.com/groups/513455866917677/permalink/826848162245111/?mibextid=K35XfP"><i className="bi-facebook"></i> </a>
+              <a href="https://www.instagram.com/techmentorsfoundation?igsh=b3IwamtkbWt0NWRo"><i className="bi-instagram"></i></a> 
+               </div>
             </div>
         </div>
     )

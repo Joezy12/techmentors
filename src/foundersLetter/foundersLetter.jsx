@@ -1,4 +1,4 @@
-
+import signature from "../../public/signature.jpeg"
 
 
 function FoundersLetter() {
@@ -35,6 +35,7 @@ Thank you for your continued support and belief in our mission. The future of Af
 With gratitude and determination,
               </p>
              </div>
+             <img  src={signature} />
         </div>
     )
 }

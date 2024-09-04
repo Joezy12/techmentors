@@ -120,7 +120,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    
 }
 
 .we-do {
@@ -135,6 +135,7 @@
     font-size: 20px;
     margin-top: 20px;
     line-height: 35px;
+    
 }
 
 .we-do button {
@@ -342,6 +343,15 @@
     display: none;
 }
 
+.foot i {
+    font-size: 40px;
+}
+
+.social-split {
+    display: flex;
+    gap: 2rem;
+}
+
 
 
 
@@ -421,6 +431,7 @@
 
 .foot p {
     font-size: 19px;
+    margin-top: 15px;
 }
  
 }

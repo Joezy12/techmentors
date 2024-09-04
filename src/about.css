@@ -36,11 +36,7 @@
 .what-heading h1 {
     font-size: 40px;
     font-weight: 800;
-}
-
-.what-heading span {
-    border: 5px solid  ;
-    padding: 0px 10px;
+    color: #467010;
 }
 
 .what-content {
@@ -51,6 +47,8 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    color: #467010;
+    text-align: justify;
 }
 
 
@@ -95,11 +93,7 @@
     color: #467010;
 }
 
-.who-head h1 span {
-    color: white;
-    background: #467010;
-    padding: 5px 20px;
-}
+
 
 .who-content {
     width: 100%;
@@ -115,6 +109,7 @@
 .who-left-content p {
     color: rgba(0,0,0,0.5);
     font-weight: 600;
+    text-align: justify;
 }
 
 .who-right {
