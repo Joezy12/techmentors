@@ -17,17 +17,17 @@ function Tsef4() {
                 </div>
                 <div className="tsef-subs">
                     <div className="tsef-sub-content">
-                        <h1>Blockchain Basics</h1>
+                    <br /> <br />
                         <p>Participants will learn the foundational concepts of blockchain technology, including how it works, its components, and its unique features such as decentralization, transparency, and immutability.</p>
                     </div>
                     <div className="tsef-sub-content">
-                        <h1>Cryptocurrency</h1>
+                    <br /> <br />
                         <p>  The program will cover the basics of cryptocurrencies, including how they operate, the principles behind them, and their role in the global economy. Teens will explore popular cryptocurrencies like Bitcoin and Ethereum.
 
                         </p>
                     </div>
                     <div className="tsef-sub-content">
-                        <h1>Smart Contracts</h1>
+                    <br /> <br />
                         <p>  These sessions will delve into smart contracts, explaining what they are, how they work, and their significance in automating transactions and agreements without the need for intermediaries.
                             Decentralized Applications (DApps): Participants will be introduced to DApps, understanding their development and use cases. They will learn how DApps leverage blockchain technology to create decentralized, user-centric solutions.
                         </p>

@@ -13,12 +13,12 @@ function TsefMain() {
                 </div>
                 <div className="tsef-subs">
                     <div className="tsef-sub-content">
-                        <h1>Robotics</h1>
+                    <br /> <br />
                         <p>Participants will learn the fundamentals and advanced techniques of various oriented programming and programming languages, learning how to design, build, and program robots. These workshops will cover everything from basic structure to complex algorithms, ensuring a solid understanding of robotic principles.
                             Application Development: This module will introduce participants to the exciting field of application development, teaching them how to create interactive apps from scratch. They will learn about application design, programming, and user experience.</p>
                     </div>
                     <div className="tsef-sub-content">
-                        <h1>Artificial Intelligence</h1>
+                       <br /> <br />
                         <p>Teens will explore the basics of AI, including machine learning and neural networks. They will explore how Artificial Intelligence is transforming industries and get hands on experience with Artificial Intelligence tools and frameworks.<br />
                             To encourage collaboration and enhance problem solving skills, participants will be grouped into teams and given challenges. These challenges will encourage teamwork, innovation, and practical application knowledge. Each challenge is designed to be engaging and educational, pushing participants to think critically and creatively.<br /><br />
                             Creativity and innovation will be at the forefront of our robotics competitions. Participants will have the opportunity to showcase their robotics projects, competing against their peers in various challenges. These competitions will not only test their technical skills but also their ability to work under pressure and think on their feet.

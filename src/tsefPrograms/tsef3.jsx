@@ -15,33 +15,33 @@ function Tsef3() {
         </div>
         <div className="tsef-subs">
             <div className="tsef-sub-content">
-                <h1>Typing</h1>
+            <br /> <br />
                 <p>Participants will learn the basics of typing, including keyboard familiarity, touch typing techniques, and improving typing speed and accuracy. These skills are fundamental for efficient computer use and digital communication.</p>
             </div>
             <div className="tsef-sub-content">
-                <h1>Internet Browsing</h1>
+            <br /> <br />
                 <p> We will introduce teenagers to the internet, teaching them how to navigate the web safely and effectively. They will learn how to use search engines, evaluate the credibility of online information, and utilize various web-based tools and resources.
                 </p>
             </div>
             <div className="tsef-sub-content">
-                <h1>Email Usage</h1>
+            <br /> <br />
                 <p>  Understanding how to use email is crucial for modern communication. Participants will learn how to create and manage email accounts, compose and send emails, and follow email etiquette.
                 </p>
             </div>
             <div className="tsef-sub-content">
-                <h1>Online Safety</h1>
+            <br /> <br />
                 <p> These sessions will cover the basics of online safety, including how to protect personal information, recognize and avoid online scams, and practice safe browsing habits.
 
                 </p>
             </div>
             <div className="tsef-sub-content">
-                <h1>Cybersecurity</h1>
+            <br /> <br />
                 <p>  Participants will gain an understanding of cybersecurity principles, including how to create strong passwords, protect devices from malware, and secure their online accounts.
 
                 </p>
             </div>
             <div className="tsef-sub-content">
-                <h1>Digital Citizenship</h1>
+            <br /> <br />
                 <p> Teaching digital citizenship is essential for responsible online behavior. Teens will learn about their rights and responsibilities in the digital world, including respecting others online, understanding digital footprints, and the ethical use of technology.
 
                 </p>

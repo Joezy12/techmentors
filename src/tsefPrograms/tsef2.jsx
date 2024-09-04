@@ -14,21 +14,21 @@ function Tsef2() {
                 </div>
                 <div className="tsef-subs">
                     <div className="tsef-sub-content">
-                        <h1>Coding</h1>
+                    <br /> <br />
                         <p>Girls will learn the fundamentals of programming, starting with basic concepts and progressing to more advanced techniques. These workshops will cover various programming languages and provide practical exercises to reinforce their learning.</p>
                     </div>
                     <div className="tsef-sub-content">
-                        <h1>Web Developent</h1>
+                    <br /> <br />
                         <p> Participants will explore the world of web development, learning how to create and design websites from scratch. They will be introduced to HTML, CSS, JavaScript, and other essential web technologies.
                         </p>
                     </div>
                     <div className="tsef-sub-content">
-                        <h1>Cybersecurity</h1>
+                    <br /> <br />
                         <p> Understanding digital security is crucial in today's world. Girls will learn about cybersecurity principles, how to protect data, and best practices for staying safe online.
                         </p>
                     </div>
                     <div className="tsef-sub-content">
-                        <h1>Data Science</h1>
+                    <br /> <br />
                         <p> This module will introduce girls to data science, teaching them how to analyze and interpret data. They will work with real world datasets and learn how to use data to make informed decisions.
                             Inspirational Talks and Panel Discussions
                             To motivate and inspire participants, we will host a series of talks and panel discussions featuring successful women in STEM fields. These sessions will provide valuable insights into the challenges and triumphs of women in tech, offering role models for the girls to look up to and learn from.<br /><br />
