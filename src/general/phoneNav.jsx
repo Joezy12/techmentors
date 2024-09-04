@@ -59,10 +59,7 @@ function PhoneNav() {
                    <h3>OUR TEAM</h3>
                   
                  </div> </NavLink>
-                 <NavLink to="media" className="link" onClick={drp}>  <div className='drp-container'>
-                   <h3>MEDIA</h3>
-                 
-                 </div> </NavLink>
+               
                  
                  <div className='drp-container' onClick={undrop}>
                    <h3>TSEF PROGRAMS</h3>
@@ -98,7 +95,7 @@ function PhoneNav() {
               
                  <NavLink to="foundersLetter" className="link" onClick={drp}><div className='drp-container'>
                    <h3>FOUNDERS LETTER</h3>
-                   <p>+</p>
+                 
                  </div> </NavLink>
                  <div className='drp-container'>
                    <h3>DONATE</h3>

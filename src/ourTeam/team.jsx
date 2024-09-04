@@ -201,10 +201,10 @@ function Team() {
             <div className="team-bottom">
                 <div className="team-box">
                    <NavLink to="../tProfile1"><div className="team-pic" style={teamPic4}></div></NavLink>
-                    <div className="team-info">
+                   <NavLink to="../tProfile1"><div className="team-info">
                         <h2>Odunola Abayomi</h2>
                         <p>Programs</p>
-                    </div>
+                    </div></NavLink> 
                   
                     <div className="team-socials">
                         <div className="social-1">
