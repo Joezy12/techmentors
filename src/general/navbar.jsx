@@ -50,11 +50,7 @@ function Navbar() {
                 <NavLink to="." className="link"> <p>HOME</p> </NavLink>
                 <NavLink to="about" className="link">  <p>ABOUT US</p> </NavLink>
                 <NavLink to="team" className="link">  <p>OUR TEAM</p> </NavLink>
-                <p onMouseOver={drop} onMouseOut={undrop}><span>MEDIA </span>
-                    <div className='drop-down' style={dropStyle} >
-                        <NavLink to="media" className="link2">  <h5 >News and Stories</h5> </NavLink>
-                        <h5 >Gallery</h5>
-                    </div></p>
+               
                     <p onMouseOver={drop2} onMouseOut={undrop2}><span>TSEF PROGRAMS </span>
                     <div className='drop-down' style={dropStyle2} >
                         <NavLink to="tsef" className="link2">  <h5 >Tech4Teens Bootcamp</h5> </NavLink>
@@ -64,7 +60,7 @@ function Navbar() {
                         <NavLink to="tsef5" className="link2"><h5>Future Coders Africa</h5></NavLink>
                     </div></p>
                 <NavLink to="foundersLetter" className="link"><p>FOUNDERS LETTER</p> </NavLink>
-                <p>CONTACT US</p>
+                <NavLink to="contact" className="link">  <p>CONTACT US</p> </NavLink>
                 <p className='link-btn'>DONATE</p>
             </div>
         </div>

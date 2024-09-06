@@ -88,10 +88,10 @@ function PhoneNav() {
 
                
                
-                 <div className='drp-container'>
+                 <NavLink to="contact" className="link" onClick={drp}><div className='drp-container'>
                    <h3>CONTACT US</h3>
                    
-                 </div> 
+                 </div> </NavLink>
               
                  <NavLink to="foundersLetter" className="link" onClick={drp}><div className='drp-container'>
                    <h3>FOUNDERS LETTER</h3>

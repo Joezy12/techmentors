@@ -137,8 +137,8 @@ function Team() {
 
             <div className="team-bottom">
                 <div name="odunola" className="team-box"  >
-                <NavLink to="../tProfile2"> <div className="team-pic" style={teamPic1}></div> </NavLink>
-                <NavLink to="../tProfile2"> <div className="team-info">
+                <NavLink to="../tProfile2" className="none"> <div className="team-pic" style={teamPic1}></div> </NavLink>
+                <NavLink to="../tProfile2" className="none"> <div className="team-info">
                         <h2>Isreal Akpan</h2>
                         <p>HR and General Administration</p>
                     </div> </NavLink>
@@ -157,8 +157,8 @@ function Team() {
                 </div>
 
                 <div className="team-box">
-                <NavLink to="../tProfile3"> <div className="team-pic t-pic2" style={teamPic2}></div></NavLink>
-                <NavLink to="../tProfile3"><div className="team-info">
+                <NavLink to="../tProfile3" className="none"> <div className="team-pic t-pic2" style={teamPic2}></div></NavLink>
+                <NavLink to="../tProfile3" className="none"><div className="team-info">
                         <h2>Nwaeke Chioma</h2>
                         <p>Legal</p> 
                     </div></NavLink>
@@ -200,8 +200,8 @@ function Team() {
 
             <div className="team-bottom">
                 <div className="team-box">
-                   <NavLink to="../tProfile1"><div className="team-pic" style={teamPic4}></div></NavLink>
-                   <NavLink to="../tProfile1"><div className="team-info">
+                   <NavLink to="../tProfile1" className="none"><div className="team-pic" style={teamPic4}></div></NavLink>
+                   <NavLink to="../tProfile1" className="none"><div className="team-info">
                         <h2>Odunola Abayomi</h2>
                         <p>Programs</p>
                     </div></NavLink> 
