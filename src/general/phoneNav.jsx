@@ -88,7 +88,7 @@ function PhoneNav() {
 
                
                
-                 <NavLink to="contact" className="link" onClick={drp}><div className='drp-container'>
+                 <NavLink to="contact         " className="link" onClick={drp}><div className='drp-container'>
                    <h3>CONTACT US</h3>
                    
                  </div> </NavLink>
