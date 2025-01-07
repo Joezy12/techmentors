@@ -1,0 +1,736 @@
+.homepage {
+    color: #737373;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    
+    background-size: cover;
+    background-position: center;
+    padding: 0px 70px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.top-banner h1 {
+    color: white;
+}
+
+.top-banner {
+    color: white;
+    margin-top: 110px;
+    display: flex;
+    gap: 8rem;
+}
+
+.t-b-left {
+    width: 70%;
+}
+
+.t-b-right p{
+    font-size: 20px;
+}
+
+.t-b-left h1 {
+    font-size: 40px;
+    text-align: initial;
+}
+
+.play {
+    background: #467010;
+    height: 60px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.t-b-left p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.bottom-banner {
+    color: white;
+    background-color: #467010;
+    margin-top: auto;
+    display: flex;
+}
+.b-banner {
+    text-align: center;
+    height: 160px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lin {
+    color: white;
+    text-decoration: none;
+}
+
+.b-banner p {
+    text-align: center;
+}
+.believe {
+    margin-top: 100px;
+    padding: 0px 70px;
+    display: flex;
+    gap: 2rem;
+   
+    margin-bottom: 30px;
+}
+
+.believe-left {
+    width: 60%;
+    margin-top: -40px;
+}
+
+.believe-right {
+    width: 40%;
+    height: 600px;
+   
+    background-size: cover;
+    background-position: center;
+}
+
+.believe h1 {
+    font-size: 34px;
+    color: #467010;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.believe p {
+    margin-top: 30px;
+    font-size: 19px;
+    line-height: 43px;
+    opacity: 0.8;
+    text-align: justify;
+}
+
+.what-we-do {
+     width: 100%;
+     height: 420px;
+    
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("https://i0.wp.com/kiitanfoundation.org/wp-content/uploads/2021/02/child-4617142_640.jpg?w=640&ssl=1");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.we-do {
+    width: 70%;
+}
+
+.we-do h1{
+    font-size: 60px;
+}
+
+.we-do p {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 35px;
+    
+}
+
+
+
+.we-do button {
+    margin-top: 20px;
+    background: #467010;
+    color: white;
+    width: 200px;
+    height: 55px;
+}
+
+.what-we-up-to {
+    width: 100%;
+    margin-top: 100px;
+   
+}
+
+.up-to-head {
+    background: #467010;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 70px;
+    color: white;
+}
+
+.up-to-head button {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.up-to-boxes{
+    margin-top: 40px;
+    padding: 0px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    
+}
+
+.u-box-write h1 {
+    font-size: 23px;
+    color: #467010;
+    font-weight: 400;
+}
+
+.u-box-write p {
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+.u-box {
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.u-box-write {
+    height: 50%;
+    padding: 20px 40px
+}
+
+.u-box-pic {
+    width: 100%;
+    height: 50%;
+    background: url("https://images.squarespace-cdn.com/content/v1/5c27c93f1aef1d60b29781f9/1603812838639-EOWJXUAZBG06RM85EKGQ/africa+1.jpg");
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.u-box-pic2 {
+    background: url("https://technext24.com/wp-content/uploads/2023/05/image-249.png");
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+.u-box-pic3 {
+    background: url("https://media.licdn.com/dms/image/D4D12AQGyC4rwcIcS1w/article-cover_image-shrink_720_1280/0/1720689709590?e=2147483647&v=beta&t=0sDP0N5Cl81wtmLv9NfxjvmBxSCAq0ileP9rv86hp7A");
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.u-box-pic4 {
+    background: url("https://www.shutterstock.com/image-photo/smiling-girl-sitting-on-wheelchair-260nw-2133881101.jpg");
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.u-box-pic5 {
+    background: url("https://thisisafrica.me/wp-content/uploads/2019/05/13062915_1204188042927726_8345433170454495319_o.jpg");
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.u-box-pic6 {
+    background: url("https://techbuild.africa/wp-content/uploads/2021/08/black-girls-.jpg");
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+.u-box-write button {
+    background: #467010;
+    color: white;
+    margin-top: 10px;
+}
+
+.our-values {
+    margin-top: 100px;
+     
+    width: 100%;
+}
+
+
+.values-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://i.pinimg.com/564x/32/bd/46/32bd460da6e57c658c66ffe206da7554.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding: 80px 0px;
+}
+
+.values-head p {
+    width: 60%;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.values-head h1 {
+    font-size: 45px;
+    color: #467010;
+}
+
+.values-container {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    gap: 6rem;
+    align-items: first baseline;
+    padding: 20px 70px;
+}
+
+.values-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+.values-icon {
+    width: 100%;
+    height: 150px;
+   
+}
+
+.values-box p {
+    font-size: 14px;
+}
+
+.footer {
+    background: #467010;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 70px;
+    background: linear-gradient(#61a310e5, #335708e5), url("https://i.pinimg.com/564x/57/51/2a/57512ac59eacccf61b37992aa81251d0.jpg");
+    background-size: cover;
+    align-items: first baseline;
+}
+
+.foot h1 {
+    font-size: 20px;
+}
+
+.foot .logo-here {
+    font-size: 40px;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #75c012;
+}
+
+.phone-nav {
+    display: none;
+}
+
+.foot i {
+    font-size: 40px;
+}
+
+.social-split {
+    display: flex;
+    gap: 2rem;
+}
+
+.none {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+@media screen and (max-width: 1100px){
+ .banner {
+    padding: 0px 0px;
+ }
+
+ .top-banner {
+    padding: 0px 40px;
+ }
+
+ .believe {
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .believe-left {
+    width: 100%;
+ }
+
+ .believe-right {
+    width: 100%;
+ }
+
+ .up-to-boxes {
+    flex-wrap: wrap;
+    padding: 0px 40px;
+ }
+
+ .u-box {
+    width: 100%;
+    height: 700px;
+    border-radius: 5px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.u-box-write h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.u-box-write p {
+    font-size: 22px;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+
+.u-box-write button {
+    margin-top: 40px;
+}
+
+.values-box {
+    width: 400px;
+}
+
+.values-container {
+    flex-wrap: wrap;
+    padding: 20px 40px;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+   
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.foot h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.foot p {
+    font-size: 19px;
+    margin-top: 15px;
+}
+ 
+}
+
+@media screen and (max-width: 900px){
+
+    .t-b-left h1 {
+        font-size: 24px;
+    }
+
+
+    .t-b-left p {
+        font-size: 16px;
+    }
+
+    .t-b-right p {
+        font-size: 16px;
+    }
+
+    .t-b-right br {
+        display: none;
+    }
+
+    .phone-nav {
+        display: flex;
+        background: white;
+        color: black;
+        padding: 0px 0px;
+        flex-direction: column;
+    }
+
+    .side-nav {
+        font-size: 40px;
+    }
+
+    .we-do {
+        width: 90%;
+    }
+
+    .what-we-do {
+        height: 500px;
+    }
+
+
+    .we-do h1{
+        font-size: 50px;
+    }
+    
+    .we-do p {
+        font-size: 17px;
+        
+    }
+    
+
+    
+    .values-head {
+        padding: 100px 0px;
+    }
+
+    .values-head p {
+        width: 90%;
+        font-size: 18px;
+    }
+    
+    .values-head h1 {
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    .values-box {
+        width: 100%;
+    }
+    
+
+    .values-icon {
+        width: 100%;
+        height: 200px;
+       
+    }
+
+    .values-box p {
+        font-size: 18px;
+        padding: 0px 40px;
+    }
+    
+
+}
+
+@media screen and (max-width: 600px){
+
+  .top-banner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top-banner {
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    gap: 2rem;
+}
+.t-b-left {
+    width: 100%;
+}
+
+.t-b-right p {
+    font-size: 14px;
+}
+
+.t-b-left h1 {
+    font-size: 21px;
+}
+
+
+.t-b-left p {
+    font-size: 14px;
+}
+
+.banner {
+    height: 550px;
+}
+
+.play {
+    width: 90px;
+    height: 40px;
+    font-size: 14px;
+}
+
+.bottom-banner {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.b-banner {
+    text-align: center;
+    height: 120px;
+    width: 100%;
+}
+
+.b-banner h1 {
+    font-weight: 500;
+}
+
+.believe h1 {
+    font-size: 23px;
+    line-height: 40px;
+}
+
+.believe p {
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 36px;
+    opacity: 0.8;
+}
+
+.believe {
+    margin-top: 250px;
+}
+
+.believe-right {
+    height: 400px;
+}
+
+.we-do h1{
+    font-size: 35px;
+}
+
+.we-do p {
+    font-size: 14px;
+    
+}
+
+.up-to-head h1 {
+    font-size: 18px;
+}
+
+.up-to-head {
+    padding: 10px 40px;
+   
+}
+
+.u-box {
+    width: 100%;
+    height: 450px;
+}
+
+.u-box-write {
+    height: 65%;
+    padding: 20px 20px
+}
+
+.u-box-pic {
+    width: 100%;
+    height: 35%;
+    background-position: center;
+  
+}
+
+.u-box-write h1 {
+    font-size: 31px;
+}
+
+.u-box-write p {
+    font-size: 14px;
+}
+
+
+}
+
+@media screen and (max-width: 500px){
+    
+    .phone-nav {
+        padding: 0px 0px;
+    }
+
+    .top-banner {
+        padding: 0px 20px;
+     }
+
+     .believe {
+        padding: 0px 20px;
+     }
+    
+
+     .believe h1 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .believe-right {
+        height: 300px;
+    }
+    
+    .what-we-do {
+        height: 450px;
+    }
+
+    .we-do p {
+       line-height: 30px;
+        
+    }
+
+
+    .up-to-head {
+        padding: 10px 20px;
+       
+    }
+    
+    .u-box {
+        height: 470px;
+    }
+    
+ 
+    
+   
+    
+    .u-box-write h1 {
+        font-size: 21px;
+    }
+    
+    .u-box-write p {
+        font-size: 13px;
+    }
+
+    .up-to-boxes {
+     
+        padding: 0px 20px;
+     }
+
+     .values-box p {
+        font-size: 14px;
+        padding: 0px 0px;
+    }
+
+    .values-icon {
+        width: 80%;
+        height: 150px;
+       
+    }
+
+    .values-box h1 {
+        font-size: 23px;
+    }
+
+    .footer {
+        padding: 100px 40px;
+    }
+}

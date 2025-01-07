@@ -1,0 +1,392 @@
+.media-banner {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 130px;
+    background: black;
+   
+    color: white;
+}
+
+
+
+.media-banner h1 {
+    font-size: 70px;
+}
+
+.media-banner p {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+
+
+
+.team-top {
+    width: 100%;
+    display: flex;
+    align-items: last baseline;
+    
+    padding: 130px 120px;
+    color: white;
+    background-size: cover;
+}
+
+.t-top-left {
+    width: 50%;
+}
+
+.t-top-right {
+    width: 50%;
+}
+
+.t-top-left p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.t-top-left h1 {
+    font-size: 50px;
+    color: white;
+    margin-top: 0px;
+}
+.t-top-right p {
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.9;
+    font-weight: 400;
+}
+
+.team-bottom {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 60px;
+    padding: 20px 120px;
+}
+
+.team-box {
+    width: 100%;
+}
+
+.team-pic {
+    width: 100%;
+    height: 400px;
+    
+}
+
+.t-pic2 {
+    background: url("https://pagupone.tokotema.com/wp-content/uploads/2023/01/charming-asian-woman-working-at-the-office-using-a-2022-10-03-22-29-30-utc-1.jpg");
+    background-size: cover;
+}
+
+.t-pic3 {
+    background: url("https://pagupone.tokotema.com/wp-content/uploads/2023/01/engineer-man-or-technician-act-of-arms-crossed-wit-2022-08-23-14-43-51-utc-1.jpg");
+    background-size: cover;
+}
+
+.team-info {
+    padding: 30px 20px;
+    background: #eee;
+}
+
+.team-info h2 {
+    font-size: 34px;
+    font-weight: 600;
+    color: black;
+}
+
+.team-info2 h2 {
+    font-size: 23px ;
+}
+
+.team-info p {
+    font-size: 17px;
+    font-weight: 500;
+    opacity: 0.6;
+    margin-top: 8px;
+}
+
+.team-socials {
+    display: flex;
+    align-items: center;
+}
+
+.social-1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background: #467010;
+    color: white;
+    font-size: 24px;
+}
+
+.social-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    color: white;
+    background: #467010;
+}
+
+.social-3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background: #467010;
+    color: white;
+}
+
+.drop-down {
+    position: absolute;
+    
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    
+}
+
+.drop-down h5 {
+    font-size: 15px;
+    padding: 13px 10px;
+    font-weight: 400;
+}
+
+.drop-down h5:hover {
+    background: #9b9898;
+}
+
+.link2 {
+    color: black;
+    text-decoration: none;
+}
+
+.link2:hover span{
+    color: #75c012;
+}
+
+
+.news {
+    padding: 40px 70px;
+}
+
+.news-head h1 {
+    font-weight: 600;
+    color: #48760b;
+    font-size: 25px;
+}
+
+.news-box {
+    width: 380px;
+    height: 710px;
+  box-shadow: 0px 0px 9px rgba(0,0,0,0.3); 
+  border-radius: 5px;
+}
+
+.news-image {
+    width: 100%;
+    height: 35%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.write-up {
+    padding: 40px 30px;
+    height: 58%;
+    
+}
+
+.write-up h1 {
+    font-size: 23px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.write-up p {
+    margin-top: 25px;
+    line-height: 26px;
+    word-spacing: 3px;
+    opacity: 0.6;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.write-up span {
+    color: #416e06;
+    padding-top: 30px;
+}
+
+.news-wrapper {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+}
+
+.news-date {
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    height: 7%;
+   
+}
+
+.news-date p {
+    font-size: 12px;
+    margin-top: 15px;
+    font-weight: 600;
+    opacity: 0.4;
+}
+
+.related-links {
+    margin-top: 80px;
+    padding: 0px 70px;
+}
+
+.r-links-head {
+    background: #eee;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.r-links-head p {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.related-container {
+    display: flex;
+    width: 100%;
+}
+
+.related-box {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s linear;
+}
+
+.related-box p {
+    font-size: 19px;
+    color: white;
+    font-weight: 600;
+    
+}
+
+.r-box1 {
+    background: linear-gradient(rgba(113, 189, 72, 0.9),rgba(113, 189, 72, 0.9)), url("https://media.istockphoto.com/id/1425221653/photo/vision-proud-and-success-business-people-portrait-in-workplace-or-office-building-with-smile.webp?b=1&s=170667a&w=0&k=20&c=XhP-a56IyK3fSGp14ee-XVD_ZcFELq60uP0ZIlU5Fxw=");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s linear;
+  
+}
+
+.r-box1:hover {
+  background:  url("https://media.istockphoto.com/id/1425221653/photo/vision-proud-and-success-business-people-portrait-in-workplace-or-office-building-with-smile.webp?b=1&s=170667a&w=0&k=20&c=XhP-a56IyK3fSGp14ee-XVD_ZcFELq60uP0ZIlU5Fxw=");
+  background-size: cover;
+  background-position: center;
+  transition: all 1s linear;
+}
+
+.related-box:hover {
+    background: rgba(0,0,0,0.8);
+}
+.r-box2 {
+    background: linear-gradient(rgba(86, 93, 82, 0.9),rgba(86, 93, 82, 0.9)), url("https://images.pexels.com/photos/3004909/pexels-photo-3004909.jpeg?cs=srgb&dl=pexels-suzyhazelwood-3004909.jpg&fm=jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.r-box3 {
+    background: linear-gradient(rgba(113, 189, 72, 0.9),rgba(113, 189, 72, 0.9)), url("https://www.shutterstock.com/image-photo/portrait-confident-black-businesswoman-all-260nw-1256023495.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.r-box4 {
+    background: linear-gradient(rgba(86, 93, 82, 0.9),rgba(86, 93, 82, 0.9)), url("https://mg.co.za/wp-content/uploads/2016/05/b58bee3e-2016-05-13-young-africans-brush-up-on-the-language-of-coding-image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 1100px){
+   .team-bottom {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .t-top-left h1 {
+    font-size: 44px;
+
+}
+
+.t-top-left p {
+    font-size: 30px;
+}
+}
+
+@media screen and (max-width: 900px){
+    .team-top {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: initial;
+        padding: 130px 40px;
+    }
+
+    .t-top-left {
+        width:100%;
+    }
+    
+    .t-top-right {
+        width: 80%;
+    }
+
+    .team-bottom {
+       
+        padding: 20px 40px;
+    }
+
+}
+
+
+@media screen and (max-width: 600px){
+
+    .t-top-right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .team-top {
+        padding: 100px 20px;
+    }
+
+    .team-bottom {
+        padding: 20px 20px;
+    }
+
+    .t-top-right p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .t-top-left h1 {
+        font-size: 44px;
+    
+    }
+
+
+
+
+}

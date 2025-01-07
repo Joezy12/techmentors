@@ -1,0 +1,51 @@
+.founders-banner {
+    height: 300px;
+    color: white;
+    background: url("https://qph.cf2.quoracdn.net/main-qimg-e6db69cd91e71501e2ad6ec07c427807-lq");
+    display: flex;
+    align-items: center;
+    padding: 20px 150px;
+    background-size: cover;
+    
+}
+
+.founders-main {
+    padding: 50px 150px;
+    font-weight: 600;
+    z-index: 4;
+
+}
+.founders-letter h3{
+    margin-left: 150px;
+}
+
+.founders-letter {
+    z-index: 4;
+}
+
+.sign img{
+  margin-left: 130px;
+
+  width: 200px;
+}
+
+.found img {
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 1000px){
+     .founders-banner {
+        padding: 20px 30px;
+     }
+
+     .founders-main {
+        padding: 50px 30px;
+     }
+     .founders-letter h3{
+        margin-left: 30px;
+        margin-bottom: 40px;
+    }
+    
+}

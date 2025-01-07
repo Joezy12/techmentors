@@ -1,0 +1,54 @@
+.p-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.p-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.trustee-profiles {
+    padding: 50px 100px;
+}
+
+.p-name h1 {
+    font-size: 30px;
+}
+
+.p-write-up {
+    margin: 40px 0px;
+    text-align: justify;
+}
+
+.trutee-text p {
+    text-align: justify;
+}
+
+
+@media screen and (max-width:1000px){
+    .p-content {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .trustee-profiles {
+        padding: 50px 20px;
+    }
+
+    .p-pic {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+    }
+
+    .p-write-up p{
+        text-align: justify;
+    }
+    
+    
+}

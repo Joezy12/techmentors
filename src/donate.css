@@ -1,0 +1,60 @@
+
+
+.donate-main {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://media.istockphoto.com/id/182815011/photo/close-up-of-innocent-african-girl-with-sad-expression.jpg?s=612x612&w=0&k=20&c=wn5TLxDCw6De1zOWiIdIHRKQGix9oKOMtRisl-rb3Tk=");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.d-head h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.donate-box img {
+    width: 300px;
+    
+}
+
+.donate-box {
+    background-color: white;
+    width: 60%;
+    padding: 50px 40px;
+    border-radius: 15px;
+}
+
+.cent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donate-box  h1 {
+    font-size: 27px;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 1000px) {
+     .donate-box {
+        width: 90%;
+     } 
+
+     .donate-box  h1 {
+        font-size: 17px;
+    }
+
+    .donate-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: initial;
+        padding-top: 150px;
+    }
+}
